@@ -62,8 +62,14 @@ Esc
 8. Запушить структуру на внешний репозиторий
 git add CheckLists.txt
 git commit -m "create CheckLists.txt"
-git push --set-upstream origin CheckLists
-git push
+git push -u origin CheckLists
 9. На внешнем репозитории сделать Pull Request ветки CheckLists в main
+-Repositories
+-GitHub
+-CheckLists
+-Compare&pull request
+-Create pull request
+-Merge pull request
 10. Синхронизировать Внешнюю и Локальную ветки Main
+git checkout main
 git pull
